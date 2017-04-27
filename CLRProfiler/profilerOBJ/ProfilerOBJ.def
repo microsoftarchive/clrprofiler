@@ -1,0 +1,18 @@
+; ==++==
+; 
+;   Copyright (c) Microsoft Corporation.  All rights reserved.
+; 
+; ==--==
+LIBRARY ProfilerOBJ
+EXPORTS
+    GetGUIDAsString private
+    DllGetClassObject private
+    DllRegisterServer private        
+    DllUnregisterServer private
+    GetAllocationLoggingActive private
+    SetAllocationLoggingActive private
+    GetCallLoggingActive private
+    SetCallLoggingActive private
+    DumpHeap private
+    LogComment private
+    AttachProfiler private

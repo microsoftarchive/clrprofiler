@@ -1,0 +1,12 @@
+; ==++==
+; 
+;   Copyright (c) Microsoft Corporation.  All rights reserved.
+; 
+; ==--==
+LIBRARY ILRewriteProfiler
+EXPORTS
+    DllGetClassObject private
+    DllRegisterServer private        
+    DllUnregisterServer private
+	NtvEnteredFunction
+	NtvExitedFunction

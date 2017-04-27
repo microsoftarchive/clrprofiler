@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\Win32\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>0</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>0</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>
+    </CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>Migrated rules for CLRProfiler.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{147EF91E-C9E4-4E8E-B5E9-5D99D8DB3769}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>CLRProfiler</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>CLRProfiler</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>0</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>
+    </CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>Migrated rules for CLRProfiler.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\Win32\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>0</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>
+    </CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>Migrated rules for CLRProfiler.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AgeHistogram.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllocationDiff.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AttachTargetPIDForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BitReader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BitWriter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CallTreeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommentRangeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevLicenseWarning.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevLicenseWarning.Designer.cs">
+      <DependentUpon>DevLicenseWarning.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DiffCallTreeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DiffDataNode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DiffTreeListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Edge.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FilterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpForm.Designer.cs">
+      <DependentUpon>HelpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowsStoreAppHelperWrapper.cs" />
+    <Compile Include="WindowsStoreAppChooserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowsStoreAppChooserForm.Designer.cs">
+      <DependentUpon>WindowsStoreAppChooserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OpenURLForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgressForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetParameterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FindRoutineForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FunctionFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FunctionFind.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Graph.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GraphBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GraphViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HistogramViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KillProcessForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NamedManualResetEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ObjectGraph.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PlacedToolTip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProfileServiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Readers.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ReadNewLog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RegisterDLL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaveFileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectColumns.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SortAndHighlightSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SummaryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TimeLineViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TreeListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Vertex.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ViewByAddressForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewCommentsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaitingForConnectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="AgeHistogram.resx">
+      <DependentUpon>AgeHistogram.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CallTreeForm.resx">
+      <DependentUpon>CallTreeForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommentRangeForm.resx">
+      <DependentUpon>CommentRangeForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevLicenseWarning.resx">
+      <DependentUpon>DevLicenseWarning.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DiffCallTreeForm.resx">
+      <DependentUpon>DiffCallTreeForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DiffTreeListView.resx">
+      <DependentUpon>DiffTreeListView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilterForm.resx">
+      <DependentUpon>FilterForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowsStoreAppChooserForm.resx">
+      <DependentUpon>WindowsStoreAppChooserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgressForm.resx">
+      <DependentUpon>ProgressForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetParameterForm.resx">
+      <DependentUpon>SetParameterForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FindRoutineForm.resx">
+      <DependentUpon>FindRoutineForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FunctionFilter.resx">
+      <DependentUpon>FunctionFilter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FunctionFind.resx">
+      <DependentUpon>FunctionFind.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GraphViewForm.resx">
+      <DependentUpon>GraphViewForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistogramViewForm.resx">
+      <DependentUpon>HistogramViewForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KillProcessForm.resx">
+      <DependentUpon>KillProcessForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListViewer.resx">
+      <DependentUpon>ListViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlacedToolTip.resx">
+      <DependentUpon>PlacedToolTip.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfileServiceForm.resx">
+      <DependentUpon>ProfileServiceForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportForm.resx">
+      <DependentUpon>ReportForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaveFileForm.resx">
+      <DependentUpon>SaveFileForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectColumns.resx">
+      <DependentUpon>SelectColumns.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SortAndHighlightSelector.resx">
+      <DependentUpon>SortAndHighlightSelector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SummaryForm.resx">
+      <DependentUpon>SummaryForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeLineViewForm.resx">
+      <DependentUpon>TimeLineViewForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TreeListView.resx">
+      <DependentUpon>TreeListView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewByAddressForm.resx">
+      <DependentUpon>ViewByAddressForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewCommentsForm.resx">
+      <DependentUpon>ViewCommentsForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewFilter.resx">
+      <DependentUpon>ViewFilter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaitingForConnectionForm.resx">
+      <DependentUpon>WaitingForConnectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="Readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Migrated rules for CLRProfiler.ruleset" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

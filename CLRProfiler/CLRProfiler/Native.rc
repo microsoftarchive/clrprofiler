@@ -1,0 +1,9 @@
+#define FX_VER_FILEDESCRIPTION_STR "\0"
+
+#include <fxver.h>
+#include <fxver.rc>
+
+#ifndef FEATURE_PAL
+#include <UacAsInvoker.rc>
+#endif
+
