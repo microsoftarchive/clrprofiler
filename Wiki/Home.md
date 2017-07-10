@@ -2,7 +2,7 @@
 This site is designed for two very different audiences: Those who want to _use_ a profiler of managed code, and those who want to _write_ a profiler of managed code.
 
 ## I want to _use_ Microsoft's CLRProfiler
-CLRProfiler is a free tool from Microsoft to help you diagnose memory issues with your managed app.  To download, go to the latest [release:Release Page](97738).
+CLRProfiler is a free tool from Microsoft to help you diagnose memory issues with your managed app.  To download, go to the latest [Release Page](https://github.com/MicrosoftArchive/clrprofiler/releases).
 
 ## I want to _write_ a profiler
 See [Writing My Own Profiler](Writing-My-Own-Profiler)
